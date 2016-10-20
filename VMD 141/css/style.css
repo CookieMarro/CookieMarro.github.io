@@ -1,3 +1,140 @@
+/*GLOBAL RULS*/
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*COLOR*/
+
+body {
+    color: #808080;
+}
+
+h1 {
+    color: #404040;
+}
+
+h2 {
+    color: #404040;
+}
+
+h3 {
+    color: #404040;
+}
+
+h4 {
+    color: #404040;
+}
+
+a {
+    color: white;
+}
+
+.main {
+    background-color: #CCCCCC;
+}
+
+.header {
+    color: #404040;
+}
+
+.footer {
+    background-color: #404040;
+}
+
+.footer h4 {
+    background-color: white;
+}
+
+.footer p {
+    background-color: #808080;
+}
+
+.footer-bottom {
+    background-color: black;
+}
+
+.contentbox-beige {
+    background-color: #f9f9eb;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.contentbox-turquoise {
+    background-color: #00e5ee;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.contentbox > img {
+    float: left;
+    margin-right: 15px;
+}
+
+.contentbox-beige > img {
+    float: left;
+    margin-right: 15px;
+}
+
+contentbox {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.tile {
+    background-color: #00e5ee;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: 0 0 5px 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-tease {
+    color: white;
+}
+
+.blog-tease h2 {
+    color: white;
+}
+
+
 /* BOX SIZING*/
 
 html {
@@ -16,10 +153,15 @@ html {
 .brand {
     padding-top: 45px;
     padding-bottom: 45px;
+    font-size: 22px
 }
 
 .nav {
     padding-top: 60px;
+}
+
+.nav li {
+    font-size: 18px;
 }
 
 .pull-right {
@@ -39,22 +181,88 @@ html {
 .page-header {
     padding-top: 30px;
     padding-bottom: 50px;
+    background-color: #00ced6;
+    color: white;
 }
 
 .page-header p {
     padding-left: 15px;
 }
 
+.contentbox h4 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contentbox li {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.contentbox i {
+    color: #5adae2;
+}
+
+.footer p {
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.footer ul {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.social-list {
+    text-align: center;
+}
+
+.social-list li {
+    display: inline-block;
+}
+
+.social-list i {
+    background-color: #2D2D2D;
+    margin: 5px 10px 0 0;
+    padding: 3px;
+    width: 40px;
+    display: inline-block;
+}
+
 
 /* HOME */
 
-.page-header.home {
+.page-header .home {
     margin-bottom: 0;
+}
+
+.page-header h1 {
+    font-weight: bold;
+}
+
+.page-header.home h1 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.page-header.home p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.page-header.home a {
+    padding-left: 35px;
 }
 
 .message {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #00ced6;
+}
+
+.message h3 {
+    color: white;
 }
 
 .main-content-top h1 {
@@ -66,8 +274,22 @@ html {
     padding-bottom: 75px;
 }
 
+.main-content-top i {
+    color: #5adae2;
+    vertical-align: -10px;
+    /* center icon to heading */
+}
+
 .blog-tease {
     height: 75px;
+}
+
+.tile p {
+    margin: 0;
+}
+
+.tile i {
+    font-size: 108px;
 }
 
 
@@ -79,6 +301,35 @@ html {
 
 .team-member {
     margin-bottom: 20px;
+}
+
+.team-member h1 {
+    Text-align: center;
+}
+
+.team-member ul {
+    text-align: right;
+}
+
+.team-member li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.team-member a {
+    color: #1e1f1f;
+}
+
+.team-member i {
+    background-color: #edecea;
+    Color: #1e1f1f;
+    font-size: 16px;
+    padding: 3px;
+    margin: 0;
+    width: 22px;
+    display: inline-block;
+    text-align: center;
 }
 
 
@@ -101,7 +352,7 @@ html {
 }
 
 .sidebar {
-    padding: 10px;
+    padding: 30px;
 }
 
 .recent-enteries img {
@@ -114,6 +365,21 @@ html {
     padding-bottom: 10px;
 }
 
+.sidebar p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #1e1f1f;
+    padding-bottom: 10px;
+}
+
+.sidebar a {
+    color: #1e1f1f;
+}
+
+.sidebar li {
+    font-size: 14px;
+}
+
 
 /*CONTACT*/
 
@@ -121,6 +387,30 @@ html {
 .form p,
 .map h2 {
     margin-left: 15px;
+}
+
+.address,
+.address a {
+    color: #1e1f1f;
+}
+
+.address li {
+    padding-bottom: 5px;
+}
+
+.info li {
+    font-size: 14px;
+    background-color: #edecea;
+    padding: 5px 8px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.info i {
+    color: #1e1f1f;
+    display: inline-block;
+    width: 22px;
+    text-align: center;
 }
 
 
@@ -144,6 +434,10 @@ html {
 
 .one-whole {
     width: 940px;
+}
+
+.one-quarter {
+    width: 220px;
 }
 
 .three-quarters {
