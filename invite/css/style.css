@@ -1,0 +1,55 @@
+.container {
+    800px;
+    background-color: gray;
+    border: ridge 20px;
+    border-color: orange;
+    padding-bottom: 60px;
+    padding-left: 125px;
+}
+
+.title {
+    font-size: 150px;
+    color: darkorange;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.party {
+    font-size: 75px;
+    color: orange;
+    font-family: 'Wendy One', sans-serif;
+}
+
+.info {
+    font-size: 45px;
+    color: white;
+    font-family: 'Wendy One', sans-serif;
+}
+
+.rsvp {
+    font-size: 40px;
+    color: orange;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+}
+
+.button1:hover {
+    background-color: orange;
+    color: white;
+}
