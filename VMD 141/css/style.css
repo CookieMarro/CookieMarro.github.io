@@ -25,6 +25,7 @@ h4 {
 
 p {
     font-size: 18px;
+    margin: 0;
 }
 
 a {
@@ -69,7 +70,7 @@ a {
 }
 
 .header {
-    color: #404040;
+    background-color: #404040;
 }
 
 .footer {
@@ -225,7 +226,7 @@ html {
 .page-header {
     padding-top: 30px;
     padding-bottom: 50px;
-    background-color: #00ced6;
+    background-color: #5adae2;
     color: white;
 }
 
@@ -359,7 +360,9 @@ html {
 }
 
 .blog-tease {
-    height: 75px;
+    color: white;
+    padding-bottom: 70px;
+    min-height: 210px;
 }
 
 .tile p {
