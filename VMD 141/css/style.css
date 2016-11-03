@@ -12,11 +12,15 @@ h1 {
 
 h2 {
     font-size: 32px;
+    color: #404040;
+    margin: 0;
 }
 
 h3 {
     font-size: 24px;
     font-weight: 200;
+    color: #404040;
+    margin: 0;
 }
 
 h4 {
@@ -38,6 +42,10 @@ ul {
     margin: 0;
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 /*COLOR*/
 
@@ -46,14 +54,6 @@ body {
 }
 
 h1 {
-    color: #404040;
-}
-
-h2 {
-    color: #404040;
-}
-
-h3 {
     color: #404040;
 }
 
@@ -91,7 +91,7 @@ a {
 }
 
 .footer-bottom {
-    background-color: black;
+    color: black;
 }
 
 .footer-bottom a {
@@ -103,7 +103,7 @@ a {
 }
 
 .contentbox-beige {
-    background-color: #f9f9eb;
+    background-color: #f9f9f6;
     padding: 10px;
     margin-bottom: 70px;
 }
@@ -114,7 +114,7 @@ a {
     margin-bottom: 70px;
 }
 
-.contentbox > img {
+.contentbox>img {
     float: left;
     margin-right: 15px;
 }
@@ -225,8 +225,8 @@ html {
 
 .page-header {
     padding-top: 30px;
-    padding-bottom: 50px;
-    background-color: #5adae2;
+    padding-bottom: 70px;
+    background-color: #00ced6;
     color: white;
 }
 
@@ -237,6 +237,7 @@ html {
 .contentbox h4 {
     font-size: 20px;
     font-weight: normal;
+    margin: 0;
 }
 
 .contentbox li {
@@ -309,6 +310,7 @@ html {
 
 .page-header h1 {
     font-weight: bold;
+    padding-left: 15px;
 }
 
 .page-header.home h1 {
@@ -344,9 +346,14 @@ html {
     color: white;
 }
 
+main-content-top {
+    margin-bottom: 75px;
+}
+
 .main-content-top h1 {
     padding-top: 70px;
     padding-bottom: 70px;
+    text-align: center;
 }
 
 .main-content-bottom {
@@ -357,6 +364,11 @@ html {
     color: #5adae2;
     vertical-align: -10px;
     /* center icon to heading */
+}
+
+main-content-bottom contentbox-beige {
+    min-height: 350px;
+    text-align: center;
 }
 
 .blog-tease {
@@ -494,6 +506,31 @@ html {
     font-size: 14px;
 }
 
+.sidebar-form input[type="text"] {
+    height: 30px;
+    width: 125px;
+    padding: o;
+    margin-bottom: 2px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.sidebar-form .btn {
+    height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0 none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-border-radius: background 0.5s ease 0s;
+    -moz-border-radius: background 0.5s ease 0s;
+    border-radius: background 0.5s ease 0s;
+}
+
 
 /*CONTACT*/
 
@@ -530,6 +567,100 @@ html {
 .info i:hover {
     color: #5adae2;
     color: #5adae2;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding-top: 25px;
+    padding-right: 0;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    height: 20px;
+    font-size: 14px;
+    color: #373737;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.contact-form input {
+    width: 445px;
+}
+
+.contact-form textarea {
+    width: 445px;
+    padding-top: 15px;
+    padding-right: 0;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    color: #373737;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+input[type="submit"].btn {
+    padding-top: 0;
+    padding-right: 22px;
+    padding-bottom: 0;
+    padding-left: 22px;
+    margin-top: 10px;
+    border: 0 none;
+    height: 50px;
+    width: 150px;
+    color: #FFFFFF;
+    -webkit-border-radius: background 0.5s ease 0s;
+    -moz-border-radius: background 0.5s ease 0s;
+    border-radius: background 0.5s ease 0s;
+}
+
+.contact-table {
+    width: 99%;
+    margin-bottom: 50px;
+}
+
+.contact-table caption {
+    text-align: left;
+    color: #373737;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.contact-table th {
+    text-align: left;
+    background-color: white;
+    color: #373737;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.contact-table td {
+    color: #373737;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.contact-table tr:nth-child(odd) {
+    background-color: #F9F8F8;
+}
+
+contact-table tr:hover {
+    background-color: #999999;
+    cursor: crosshair;
 }
 
 

@@ -5,37 +5,44 @@
     <meta charset="UTF-8">
     <title>Simply Flat</title>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <script src="https://use.fontawesome.com/08174a6492.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
     <div class="container">
 
+
         <header class="header">
-            <div class="one-third column">
+            <div class="container">
+                <div class="row">
+                    <div class="one-third column">
 
-                <h1 class="brand"><a href="index.html">Simply Flat</a></h1>
+                        <h1 class="brand">
+                <a href="index.html">Simply Flat</a></h1>
+                    </div>
+
+
+                    <nav class="two-thirds column nav">
+                        <ul class="pull-right">
+
+                            <li class="active"><a href="index.html">Home</a></li>
+
+                            <li><a href="about.html">About Us</a></li>
+
+                            <li><a href="portfolio.html">Portfolio</a></li>
+
+                            <li><a href="blog.html">Blog</a></li>
+
+                            <li><a href="contact.html">Contact Us</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
             </div>
-
-
-            <nav class="two-thirds column nav">
-                <ul class="pull-right">
-
-                    <li><a href="index.html">Home</a></li>
-
-                    <li><a href="about.html">About Us</a></li>
-
-                    <li><a href="portfolio.html">Portfolio</a></li>
-
-                    <li><a href="blog.html">Blog</a></li>
-
-                    <li class="active"><a href="contact.html">Contact Us</a></li>
-
-                </ul>
-            </nav>
         </header>
 
         <!--HEADER END-->
@@ -54,8 +61,8 @@
                 <div class="container">
 
 
-                    <table>
-                        <caption>We are here to serve you</caption>
+                    <table class="contact-table">
+                        <caption class="text-center">We are here to serve you</caption>
                         <tr>
                             <th>Name</th>
                             <th>Title</th>
@@ -136,12 +143,16 @@
                     <div class="row">
 
 
-                        <form action="#" method="post" name="contact-form">
-                            <input type="text" placeholder="Cookie Marroquin" tabindex="1" required>
-                            <input type="email" placeholder="Email" tabindex="2" required>
-                            <input type="tel" placeholder="Phone Number" tabindex="3" required>
-                            <textarea placeholder="Comments" tabindex="4" required></textarea>
-                            <input type="submit" value="Send Message" tabindex="5">
+                        <form action="#" method="post" name="contact-form" class="contact-form">
+                            <div class="one-half column">
+                                <input type="text" placeholder="Your Name" tabindex="1" required>
+                                <input type="email" placeholder="Email" tabindex="2" required>
+                                <input type="tel" placeholder="Phone Number" tabindex="3" required>
+                            </div>
+                            <div class="one-half column">
+                                <textarea placeholder="Comments" tabindex="4" required></textarea>
+                                <input type="submit" value="Send Message" tabindex="5" class="btn pull-right">
+                            </div>
                         </form>
                     </div>
                 </div>
